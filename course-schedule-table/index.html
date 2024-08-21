@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h2 id="title">Semester II Schedule</h2>
+  <div class="table-wrapper">
+    <table border="1" aria-labelledby="weeklyCourseSchedule" id="course-table">
+      <caption>Fig: Semester 2 Course Schedule</caption>
+      <thread>
+        <th id="course" scope="col">Course</th>
+        <th id="time" scope="col" colspan="2">Time</th>
+        <th id="room" scope="col">Room</th>
+        <th id="day" scope="col">Day</th>
+      </thread>
+      <tbody>
+        <tr>
+          <th id="english" scope="row" rowspan="2">English II</th>
+          <td headers="english-row-1 time-1">9:00</td>
+          <td headers="english-row-1 time-2">11:00</td>
+          <td headers="english-row-1 room">L2201</td>
+          <td headers="english-row-1 day">Monday</td>
+        </tr>
+        <tr>
+          <td headers="english-row-2 time-1">9:00</td>
+          <td headers="english-row-2 time-2">11:00</td>
+          <td headers="english-row-2 room">L2201</td>
+          <td headers="english-row-2 day">Wednesday</td>
+        </tr>
+        <tr>
+          <th id="geography" scope="row">Geography</th>
+          <td headers="geography time-1">11:00</td>
+          <td headers="geography time-2">12:45</td>
+          <td headers="geography room">G107</td>
+          <td headers="geography day">Tuesday</td>
+        </tr>
+        <tr>
+          <th id="biology" scope="row">Biology</th>
+          <td headers="biology time-1">9:00</td>
+          <td headers="biology time-2">11:00</td>
+          <td headers="biology room">B302</td>
+          <td headers="biology day">Friday</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="title">Product Comparison Chart</h2>
+  <div class="table-wrapper">
+    <table border="1" aria-labelledby="weeklyCourseSchedule" id="product-table">
+      <caption>Fig: Comparison of the features between the products</caption>
+      <thead class="table-header">
+        <th id="hide"></th>
+        <th id="product-a" scope="col">Product A</th>
+        <th id="product-b" scope="col">Product B</th>
+        <th id="product-c" scope="col">Product C</th>
+      </thead>
+      <tbody class="product-body">
+        <tr>
+          <th id="durability" scope="row">Durability</th>
+          <td headers="durability product-a">10/10</td>
+          <td headers="durability product-b">5/10</td>
+          <td headers="durability product-c">7/10</td>
+        </tr>
+        <tr>
+          <th d="design" scope="row">Design</th>
+          <td headers="design product-a">3/10</td>
+          <td headers="design product-b">8/10</td>
+          <td headers="design product-c">7/10</td>
+        </tr>
+        <tr>
+          <th id="usability" scope="row">Usability</th>
+          <td headers="usability product-a">7/10</td>
+          <td headers="usability product-b">10/10</td>
+          <td headers="usability product-c">5/10</td>
+        </tr>
+        <tr>
+          <th id="price" scope="row">Price</th>
+          <td headers="price product-a">9/10</td>
+          <td headers="price product-b">7/10</td>
+          <td headers="price product-c">3/10</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-wrapper">
+    <table border="1" aria-labelledby="weeklyCourseSchedule">
+      <thead>
+        <th id="header-text" scope="col" colspan="4">My Lovely Dogs</th>
+      </thead>
+      <thead>
+        <th class="img-th" scope="col"></th>
+        <th class="img-th" scope="col">
+          <img src="../assets/imgs/Jetty.png" class="dogs" />
+        </th>
+        <th class="img-th" scope="col">
+          <img src="../assets/imgs/Zorro.png" class="dogs" />
+        </th>
+        <th class="img-th" scope="col">
+          <img src="../assets/imgs/Sohpie.png" id="sohpie" />
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="durability" scope="row">Name</th>
+          <td headers="durability product-a">Jetty</td>
+          <td headers="durability product-b">Zorro</td>
+          <td headers="durability product-c">Sohpie</td>
+        </tr>
+        <tr>
+          <th headers="design">Age</th>
+          <td headers="design product-a">4 years old</td>
+          <td headers="design product-b">7 years</td>
+          <td headers="design product-c">13 years</td>
+        </tr>
+        <tr>
+          <th id="usability" scope="row">Weight</th>
+          <td headers="usability product-a">5.6KG</td>
+          <td headers="usability product-b">Hopefully 7KG</td>
+          <td headers="usability product-c">Maybe 3KG..?</td>
+        </tr>
+        <tr>
+          <th id="price" scope="row">Personality</th>
+          <td headers="price product-a">Shy</td>
+          <td headers="price product-b">So Friendly</td>
+          <td headers="price product-c">Calm</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
