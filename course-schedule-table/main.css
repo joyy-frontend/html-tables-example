@@ -22,9 +22,6 @@ h2 {
 
 .course-table-wrapper {
   background-color: #F5F5F5;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 2%;
   padding-top: 15px;
 }
 
@@ -33,10 +30,12 @@ h2 {
 }
 
 table {
-  width: 100%;
+  width: 80%;
   text-align: center;
   font-size: 20px;
   border-spacing: 0;
+  margin-left: 10%;
+  margin-top: 2%;
 }
 
 #course-table {
@@ -89,24 +88,11 @@ caption {
   border: 1px solid #79a2e0;
 }
 
-#product-table thead th:nth-of-type(1) {
-  /* border-top: 3px solid white !important;
-  border-left: 3px solid white !important; */
-  /* background-color: white; */
-}
-
 table thead th:first-child {
   /* border-top: none; */
   border: none !important;
   background-color: white;
 }
-/* 
-#hide {
-  border-top: none;
-  border-left: none;
-  background-color: white;
-} */
-
 
 .product-body tr:nth-child(odd) {
   background-color: #D9E8FB; /* 두 번째 행의 배경색 */
